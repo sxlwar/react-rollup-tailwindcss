@@ -47,7 +47,10 @@
     "react-dom": "18.x"
   },
   "dependencies": {
-    "classnames": "^2.3.2"
+    "autoprefixer": "^10.4.14",
+    "classnames": "^2.3.2",
+    "rc-input": "^0.2.2",
+    "tailwindcss": "^3.2.7"
   },
   "devDependencies": {
     "@babel/core": "^7.20.12",
@@ -124,6 +127,7 @@
     "jest-pnp-resolver": "^1.2.3",
     "jest-watch-typeahead": "^2.2.2",
     "postcss": "^8.4.21",
+    "postcss-loader": "^7.0.2",
     "postcss-scss": "^4.0.6",
     "prettier": "^2.8.3",
     "process": "^0.11.10",
@@ -139,6 +143,7 @@
     "rollup": "^3.11.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-tailwindcss": "^1.0.0",
     "rollup-plugin-terser": "^7.0.2",
     "sass": "^1.57.1",
     "sass-loader": "^13.2.0",
